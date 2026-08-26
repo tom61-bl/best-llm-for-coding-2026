@@ -1,0 +1,13 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+*.tmp
+
+# Local-only review material
+review-notes.local.md
+qa.local/
