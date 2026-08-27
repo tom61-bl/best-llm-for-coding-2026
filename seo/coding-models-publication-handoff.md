@@ -35,12 +35,12 @@ The title, description, byline, modified date, summary table, FAQ, and schema mu
 
 | Asset | Repository path | Production role | Alt text / implementation note |
 |---|---|---|---|
-| Article hero | `assets/images/best-llm-for-coding-2026-hero.jpg` | Display directly below the H1, adjacent to the introductory decision framework. | `Abstract AI routing hub connecting coding, analysis, and repository-workflow panels` |
+| Article hero | `assets/images/best-llm-for-coding-2026-hero.jpg` | Display directly below the H1, adjacent to the introductory decision framework. | `ApiFlux editorial cover showing three coding task profiles—routine and repeatable, daily production, and ambiguous long-horizon—mapped to fast, balanced, and frontier model tiers.` |
 | Social preview | `assets/images/best-llm-for-coding-2026-social.jpg` | Use as `og:image` and `twitter:image`; publish as a stable, crawlable production URL. | The social image needs no duplicated title text; the page metadata provides the accessible headline. |
 | Model-routing framework | `assets/images/model-routing-framework.png` | Display after the model-selection policy. | `Decision flow for routing coding tasks by difficulty, repeatability, and verification outcome` |
 | Diagram source | `assets/model-routing-framework.mmd` | Repository-only source for the route diagram. | Regenerate the PNG after any policy, model, or tier-label change. |
 
-The hero is a 2560 × 1440 in-content editorial asset. The social preview is a dedicated 1200 × 630 image, chosen for broad social-preview compatibility. Do not embed essential, change-prone copy into either image. Meaningful images should be present as standard HTML images with descriptive alternative text, responsive delivery, and a crawlable `src` fallback.[4]
+The hero is a 1600 × 900 in-content editorial asset with the approved logo directly on the continuous dark canvas at upper-left and the supplied mascot directly on the same canvas at upper-right. The social preview is a dedicated 1200 × 630 image, chosen for broad social-preview compatibility. Do not embed essential, change-prone copy into either image. Meaningful images should be present as standard HTML images with descriptive alternative text, responsive delivery, and a crawlable `src` fallback.[4]
 
 ## Social metadata
 

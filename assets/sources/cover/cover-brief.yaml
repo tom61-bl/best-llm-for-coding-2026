@@ -1,0 +1,62 @@
+asset:
+  id: best-llm-for-coding-2026-hero
+  role: article-hero
+  status: approved-for-pr-review
+  output_file: assets/images/best-llm-for-coding-2026-hero.jpg
+  source_file: assets/sources/cover/best-llm-for-coding-2026-hero.html
+  dimensions: 1600x900
+  alt: "ApiFlux editorial cover showing three coding task profiles—routine and repeatable, daily production, and ambiguous long-horizon—mapped to fast, balanced, and frontier model tiers."
+  caption: "Choose a coding-model tier by task profile, then measure total cost per accepted task."
+  social_reuse: false
+
+visual_mode: editorial-decision-guide
+visual_thesis: "Choose a model tier from task shape and accept only validated results, rather than using a universal ranking."
+reader_insight: "The same model is not the best starting point for routine, daily production, and ambiguous long-horizon coding work."
+reference_composition: "Large three-line title at left; single decision-evidence card at right; restrained technical footer."
+
+layers:
+  - continuous dark canvas: "#0D0D15"
+  - deterministic title and supporting copy
+  - deterministic task-profile decision card
+  - original ApiFlux logo
+  - original supplied mascot
+  - restrained footer rule and editorial metadata
+
+brand:
+  logo:
+    source: assets/brand/apiflux-logo-original.png
+    position: upper-left
+    display_width_px: 220
+    treatment: "Original asset only; non-destructive lighten blend on a continuous dark canvas."
+  mascot:
+    decision: include
+    source: assets/mascot-references/mascot-waving.jpg
+    editorial_role: "Welcomes the reader into the task-tier decision framework without competing with the title or evidence card."
+    position: upper-right
+    display_width_px: 112
+    treatment: "Original asset only; non-destructive lighten blend on the same continuous dark canvas."
+  hard_rules:
+    - "No independent logo or mascot tile, card, sticker, frame, border, white edge, or background block."
+    - "Logo and mascot must appear directly on the continuous canvas."
+    - "Do not redraw, recolor, key, mask, or generate a replacement for either asset."
+
+copy_safe_zone:
+  headline: "x=72–612; y=214–450"
+  logo_clearance: "No rules, diagram objects, or content within 48 px of the logo bounds."
+  mascot_clearance: "No rules, diagram objects, or content within 48 px of the mascot bounds."
+
+visual_semantics:
+  fast_cyan: "Routine and repeatable work starts with the fast tier."
+  balanced_blue: "Daily production work starts with the balanced tier."
+  frontier_violet: "Ambiguous or long-horizon work starts with the frontier tier."
+  outcome: "Cost per accepted task is the decision measure."
+
+qa:
+  logo_upper_left: true
+  mascot_upper_right: true
+  continuous_dark_canvas: true
+  logo_or_mascot_independent_background: false
+  headline_clearance: true
+  factual_labels_match_article: true
+  source_text_is_editable_html: true
+  final_editor_approval: pending

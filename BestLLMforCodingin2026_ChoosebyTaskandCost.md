@@ -16,7 +16,7 @@ There is no universal best LLM for coding. For the hardest long-running or repos
 
 The right coding model is not necessarily the benchmark leader. It is the model that completes **your** tasks reliably, within the required latency, at the **lowest total cost per accepted result**. That cost includes failed attempts, retries, tool calls, generated tokens, and engineer review time—not only the input-token price.
 
-![Abstract AI routing hub connecting coding, analysis, and repository-workflow panels](assets/images/best-llm-for-coding-2026-hero.jpg)
+![ApiFlux editorial cover showing three coding task profiles—routine and repeatable, daily production, and ambiguous long-horizon—mapped to fast, balanced, and frontier model tiers.](assets/images/best-llm-for-coding-2026-hero.jpg)
 
 > **Use this guide as an evaluation shortlist, not a universal ranking.** Provider descriptions explain which models are worth testing; your repository tasks, acceptance checks, and operating constraints determine the final choice.
 
@@ -204,7 +204,16 @@ A shared workflow does not make model behavior interchangeable. Its value is con
 
 ## Sources and verification record
 
-The provider facts and direct-provider price snapshots in this article were checked **August 27, 2026**. Prices, model IDs, availability, APIs, and provider documentation can change. Confirm the live provider source and the current ApiFlux Models page again immediately before publishing a refreshed version of this guide.
+All factual entries in this article were checked **August 27, 2026**. Pricing, model IDs, availability, APIs, and provider documentation can change; verify the live provider source and the current ApiFlux Models page again immediately before publication.
+
+| Reference | Source |
+|---|---|
+| [1] | [OpenAI model documentation][1] |
+| [2] | [Anthropic models overview][2] |
+| [3] | [Google Gemini API model documentation][3] |
+| [4] | [Google Gemini API pricing][4] |
+| [5] | [DeepSeek API pricing][5] |
+| [6] | [ApiFlux Models][6] |
 
 [1]: https://developers.openai.com/api/docs/models "OpenAI API — Models"
 [2]: https://platform.claude.com/docs/en/models/overview "Claude Platform Docs — Models overview"
@@ -215,7 +224,7 @@ The provider facts and direct-provider price snapshots in this article were chec
 
 ---
 
-# Implementation notes — not visible page copy
+## Implementation notes
 
 ## Social metadata
 

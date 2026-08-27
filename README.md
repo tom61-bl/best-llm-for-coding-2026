@@ -2,7 +2,7 @@
 
 > **Status: editorial draft under review.** This repository is the source package for an ApiFlux article. It is not a deployed website, and merging this repository alone does not publish the article or make it searchable.
 
-![Best LLM for Coding in 2026 editorial cover](assets/images/best-llm-for-coding-2026-hero.jpg)
+![ApiFlux editorial cover showing three coding task profiles—routine and repeatable, daily production, and ambiguous long-horizon—mapped to fast, balanced, and frontier model tiers.](assets/images/best-llm-for-coding-2026-hero.jpg)
 
 ## What this repository contains
 
