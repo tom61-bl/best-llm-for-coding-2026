@@ -18,6 +18,8 @@ The right coding model is not necessarily the benchmark leader. It is the model 
 
 ![ApiFlux editorial cover showing three coding task profiles—routine and repeatable, daily production, and ambiguous long-horizon—mapped to fast, balanced, and frontier model tiers.](assets/images/best-llm-for-coding-2026-hero.jpg)
 
+*Choose a coding-model tier from the task profile, then compare cost per accepted task.*
+
 > **Use this guide as an evaluation shortlist, not a universal ranking.** Provider descriptions explain which models are worth testing; your repository tasks, acceptance checks, and operating constraints determine the final choice.
 
 ## Best coding LLMs at a glance
@@ -162,6 +164,8 @@ Re-run the evaluation whenever a provider changes a model version, price, contex
 
 ![Decision flow for routing coding tasks by difficulty, repeatability, and verification outcome](assets/images/model-routing-framework.png)
 
+*Route by task shape and escalate after failed checks or exhausted retry budgets instead of forcing one model to do every job.*
+
 Route ambiguous, repository-scale, or high-risk work to the frontier tier; keep daily feature work with the balanced tier; and reserve fast or lower-cost models for repeatable jobs with a clear verifier. Any task that exceeds its retry budget or fails acceptance checks should escalate instead of silently consuming more low-cost attempts.
 
 ## Compare coding models through one workflow
@@ -221,42 +225,3 @@ All factual entries in this article were checked **August 27, 2026**. Pricing, m
 [4]: https://ai.google.dev/gemini-api/docs/pricing "Google AI for Developers — Gemini Developer API pricing"
 [5]: https://api-docs.deepseek.com/quick_start/pricing "DeepSeek API Docs — Models & Pricing"
 [6]: https://apiflux.ai/models "ApiFlux Models"
-
----
-
-## Implementation notes
-
-## Social metadata
-
-| Field | Value |
-|---|---|
-| OG title | Best LLMs for Coding in 2026 |
-| OG description | Choose a coding model by task success, agent reliability, and total cost—not benchmark rank alone. |
-| OG type | article |
-| Twitter card | summary_large_image |
-| Social image | Use the verified, crawlable production URL for `best-llm-for-coding-2026-social.jpg`. Never publish a nonexistent image URL, staging hostname, or draft placeholder. |
-
-## Hreflang plan
-
-Add hreflang annotations **only after** each localized page exists, self-canonicalizes, and returns HTTP 200.
-
-| Locale | Canonical localized URL |
-|---|---|
-| en | `https://apiflux.ai/blog/best-llm-for-coding` |
-| zh-CN | `https://apiflux.ai/zh-CN/blog/best-llm-for-coding` |
-| zh-TW | `https://apiflux.ai/zh-TW/blog/best-llm-for-coding` |
-| x-default | `https://apiflux.ai/blog/best-llm-for-coding` |
-
-Each locale must self-canonicalize. Do not emit hreflang URLs for untranslated drafts.
-
-## Structured-data plan
-
-Use a **BlogPosting** node for the authored editorial guide and an **ItemList** node for the model shortlist. `BlogPosting` is an Article subtype suitable for a blog-hosted article. Populate the following values dynamically before publication: final URL, headline, description, author or publisher entity, `datePublished`, `dateModified`, verified social-image URL, and item URLs. Validate the rendered JSON-LD; draft placeholders must never enter production markup. The full production template is maintained in [`seo/coding-models-publication-handoff.md`](seo/coding-models-publication-handoff.md).
-
-## Draft publication gate
-
-Keep this page in **draft** status and exclude both the file and URL from the production sitemap until it has passed QA. Before release, complete editorial fact-checking; verify current ApiFlux model availability and price displays; test responsive rendering; run the build and type check; check internal and external links; validate structured data and the social image; inspect canonical and hreflang tags; and perform a final HTTP 200 and sitemap check.
-
-> **Publication rule:** A draft that has not passed page implementation, browser, build, link, and structured-data QA must not be published.
-
-This draft has not yet passed final implementation or browser QA and must remain unpublished until the gate above is complete.
