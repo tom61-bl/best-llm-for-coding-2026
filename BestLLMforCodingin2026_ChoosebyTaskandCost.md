@@ -212,3 +212,42 @@ The provider facts and direct-provider price snapshots in this article were chec
 [4]: https://ai.google.dev/gemini-api/docs/pricing "Google AI for Developers — Gemini Developer API pricing"
 [5]: https://api-docs.deepseek.com/quick_start/pricing "DeepSeek API Docs — Models & Pricing"
 [6]: https://apiflux.ai/models "ApiFlux Models"
+
+---
+
+# Implementation notes — not visible page copy
+
+## Social metadata
+
+| Field | Value |
+|---|---|
+| OG title | Best LLMs for Coding in 2026 |
+| OG description | Choose a coding model by task success, agent reliability, and total cost—not benchmark rank alone. |
+| OG type | article |
+| Twitter card | summary_large_image |
+| Social image | Use the verified, crawlable production URL for `best-llm-for-coding-2026-social.jpg`. Never publish a nonexistent image URL, staging hostname, or draft placeholder. |
+
+## Hreflang plan
+
+Add hreflang annotations **only after** each localized page exists, self-canonicalizes, and returns HTTP 200.
+
+| Locale | Canonical localized URL |
+|---|---|
+| en | `https://apiflux.ai/blog/best-llm-for-coding` |
+| zh-CN | `https://apiflux.ai/zh-CN/blog/best-llm-for-coding` |
+| zh-TW | `https://apiflux.ai/zh-TW/blog/best-llm-for-coding` |
+| x-default | `https://apiflux.ai/blog/best-llm-for-coding` |
+
+Each locale must self-canonicalize. Do not emit hreflang URLs for untranslated drafts.
+
+## Structured-data plan
+
+Use a **BlogPosting** node for the authored editorial guide and an **ItemList** node for the model shortlist. `BlogPosting` is an Article subtype suitable for a blog-hosted article. Populate the following values dynamically before publication: final URL, headline, description, author or publisher entity, `datePublished`, `dateModified`, verified social-image URL, and item URLs. Validate the rendered JSON-LD; draft placeholders must never enter production markup. The full production template is maintained in [`seo/coding-models-publication-handoff.md`](seo/coding-models-publication-handoff.md).
+
+## Draft publication gate
+
+Keep this page in **draft** status and exclude both the file and URL from the production sitemap until it has passed QA. Before release, complete editorial fact-checking; verify current ApiFlux model availability and price displays; test responsive rendering; run the build and type check; check internal and external links; validate structured data and the social image; inspect canonical and hreflang tags; and perform a final HTTP 200 and sitemap check.
+
+> **Publication rule:** A draft that has not passed page implementation, browser, build, link, and structured-data QA must not be published.
+
+This draft has not yet passed final implementation or browser QA and must remain unpublished until the gate above is complete.
