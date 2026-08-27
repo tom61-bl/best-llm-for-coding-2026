@@ -39,12 +39,6 @@ All values are **direct-provider public list prices in USD per 1M tokens**, chec
 
 > **Editorial scope:** This is a practical shortlist, not an ApiFlux benchmark leaderboard. The provider descriptions cited here are vendor capability statements, not proof that one model will outperform another on your repository.
 
-## How this guide makes recommendations
-
-**Quick answer:** This guide selects models to test from current provider documentation and a common production-routing use case. It does not claim that ApiFlux has independently benchmarked every model or that any provider statement guarantees success on your codebase.
-
-A useful coding-model comparison must separate **published capability claims** from **operational evidence**. The shortlist covers three decisions that teams repeatedly face: which model should handle ambiguous repository work, which model should be the affordable default for daily agent loops, and which lower-cost tier has earned trust on predictable work. The final answer should come from repeated trials on your own repository with stable tools, instructions, budgets, and acceptance checks.
-
 ## Which LLM is best for your coding task?
 
 **Quick answer:** Match the model to task difficulty, required reliability, speed, and total cost. Use frontier models for uncertain, long-horizon work; use balanced models for daily production tasks; and use lower-cost tiers only where their reliability has been proven on the work you will automate.
