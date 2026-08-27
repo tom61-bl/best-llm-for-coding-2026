@@ -1,20 +1,15 @@
-# Section visuals QA — 2026-08-27
+# Section visuals QA — replacement screenshots
 
-## Scope
+## Replacement status
 
-The user explicitly authorized action adjustment of the supplied purple octopus mascot for this article. All mascot action variants are **illustrative**. They do not claim to depict a real ApiFlux UI, API result, benchmark, price, model ranking, or operational measurement.
+The three previous mascot-led illustrations are withdrawn from this pull request. They are replaced by three `1280 × 720` information snapshots in which the article’s factual logic is primary and the supplied mascot is a small fixed upper-right anchor.
 
-| File | Verified mascot role | Visual claim boundary | Result |
-|---|---|---|---|
-| `coding-task-tier-selection.png` | The mascot sorts three abstract cyan, blue, and violet paths into one verification check. | Explains task-tier routing conceptually; the reader must rely on the nearby article text for actual model tiers and criteria. | Pass: no text, data, logo, tile, frame, or fabricated interface. Identity anchors and continuous near-black visual world are consistent. |
-| `coding-model-evaluation-loop.png` | The mascot checks a conceptual loop of task, test, retry, and acceptance symbols. | Explains controlled repeat testing conceptually; it does not encode measured success rates or a real testing workflow. | Pass: no text, data, logo, tile, frame, or fabricated interface. Identity anchors and continuous near-black visual world are consistent. |
+| File | Information job | Mascot source and placement | Background result | Factual boundary | Result |
+|---|---|---|---|---|---|
+| `coding-task-tier-snapshot.png` | Explains predictable, daily production, and high-risk task tiers. | Original `mascot-waving.jpg`, 102 px, upper-right. | Pass: matching continuous `#0D0D15` canvas; no tile, frame, border, or sticker. | Labels are direct summaries of the nearby routing text; no model ranking or price. | Pass |
+| `coding-model-evaluation-snapshot.png` | Explains same environment, same task set, and same checks. | Original `mascot-front-welcome.jpg`, 98 px, upper-right. | Pass: matching continuous `#070915` canvas; non-subject source margin cropped; no tile, frame, border, or sticker. | Labels are direct summaries of the nearby evaluation text; no benchmark or measured result. | Pass |
+| `unified-coding-workflow-snapshot.png` | Explains shared input, common run, and decision record. | Original `mascot-waving.jpg`, 102 px, upper-right. | Pass: matching continuous `#0D0D15` canvas; no tile, frame, border, or sticker. | Labels are direct summaries of the nearby workflow text; no real product UI or protocol claim. | Pass |
 
-## Required final check
+## Required implementation condition
 
-Verify the third workflow visual before insertion. Then add all three image references, descriptive alt text, captions, plan, and manifest to the existing article PR.
-
-| `unified-coding-model-comparison-workflow.png` | The mascot guides three abstract routes into a shared acceptance check. | Explains a common comparison workflow conceptually; it does not represent real protocol compatibility, product screens, routing results, or measured outcomes. | Pass: no text, data, logo, tile, frame, or fabricated interface. Identity anchors and continuous near-black visual world are consistent. |
-
-## Final result
-
-All three assets use user-authorized illustrative action variants based on the supplied mascot references. Each uses a continuous near-black background and has no independent mascot or logo tile. The three images have distinct reader jobs: selecting a task tier, repeating a fair evaluation loop, and using a shared comparison workflow.
+The production CMS must preserve the article image references, alt text, and captions. Do not reuse these section visuals as Open Graph images, and do not add a second logo or mascot overlay in the CMS.

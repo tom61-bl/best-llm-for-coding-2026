@@ -1,74 +1,72 @@
 visuals:
-  - id: coding-task-tier-selection
-    file: assets/images/coding-task-tier-selection.png
-    dimensions: 2560x1440
-    mode: editorial-illustration
-    status: illustrative
+  - id: coding-task-tier-snapshot
+    file: assets/images/coding-task-tier-snapshot.png
+    source: assets/sources/section-screenshots/task-tier-snapshot.html
+    dimensions: 1280x720
+    mode: diagram-information-snapshot
+    status: factual-summary
     article_placement: "Immediately after the quick answer under ## Which LLM is best for your coding task?"
-    reader_job: "Recognize that task shape determines the model tier to test first."
-    visual_thesis: "Route predictable, daily, and ambiguous work to appropriately escalating tiers."
-    alt: "A purple ApiFlux octopus uses its tentacles to route three unlabeled work paths from a fast cyan route through a balanced blue route to a frontier violet route."
-    caption: "Match the first model tier to task risk, repeatability, and verification."
+    reader_job: "Choose a first model tier from task shape rather than a global leaderboard."
+    visual_thesis: "Predictable, daily, and high-risk work should start in different model tiers."
+    alt: "A three-card task-tier guide for predictable, daily production, and high-risk coding work, with a small purple ApiFlux mascot in the upper-right corner."
+    caption: "Choose a starting tier from task risk, repeatability, and verification; escalate when checks fail."
+    social_reuse: false
     mascot_decision:
       decision: include
-      action_variant_authorized: true
-      authorization: "User explicitly authorized mascot action adjustment on 2026-08-27."
-      reference_assets:
-        - assets/mascot-references/mascot-front-welcome.jpg
-        - assets/mascot-references/mascot-running-wink.jpg
-        - assets/mascot-references/mascot-waving.jpg
-      intended_action: "Sort three abstract work paths with separate tentacles."
-      identity_anchors: ["purple-to-violet rounded head and tentacles", "lavender belly", "simple white eyes with black pupils", "friendly small smile", "flat-vector silhouette"]
-      background: "continuous near-black; no tile, frame, sticker, or standalone background"
+      selected_asset: assets/mascot-references/mascot-waving.jpg
+      action_variant_authorized: false
+      action_variant_status: original
+      reader_job_role: "Welcomes the reader into the task-routing framework without displacing the information."
+      placement_zone: "Fixed upper-right quiet zone; 102 px wide; outside title and card area."
+      background: "Exact continuous #0D0D15 canvas; no tile, frame, border, or sticker."
 
-  - id: coding-model-evaluation-loop
-    file: assets/images/coding-model-evaluation-loop.png
-    dimensions: 2560x1440
-    mode: editorial-illustration
-    status: illustrative
+  - id: coding-model-evaluation-snapshot
+    file: assets/images/coding-model-evaluation-snapshot.png
+    source: assets/sources/section-screenshots/evaluation-method-snapshot.html
+    dimensions: 1280x720
+    mode: diagram-information-snapshot
+    status: factual-summary
     article_placement: "Immediately after the quick answer under ## How to evaluate the best code LLM for your team"
-    reader_job: "Remember to hold variables constant, test repeatedly, and accept only checked work."
-    visual_thesis: "Good comparisons require repeatable evaluation loops rather than one-off impressions."
-    alt: "A focused purple ApiFlux octopus examines a conceptual loop of task, test, retry, and accepted-result symbols."
-    caption: "Compare models with repeated, controlled tasks and predefined acceptance checks."
+    reader_job: "Build a fair, repeatable comparison before trusting its result."
+    visual_thesis: "Use a constant environment, repeated task set, and shared acceptance checks."
+    alt: "A three-step controlled evaluation guide showing the same environment, same task set, and same acceptance checks, with a small purple ApiFlux mascot in the upper-right corner."
+    caption: "Make comparisons fair: hold the environment constant, repeat representative tasks, and require the same checks."
+    social_reuse: false
     mascot_decision:
       decision: include
-      action_variant_authorized: true
-      authorization: "User explicitly authorized mascot action adjustment on 2026-08-27."
-      reference_assets:
-        - assets/mascot-references/mascot-front-welcome.jpg
-        - assets/images/coding-task-tier-selection.png
-      intended_action: "Inspect a repeated abstract evaluation loop before accepting an outcome."
-      identity_anchors: ["purple-to-violet rounded head and tentacles", "lavender belly", "simple white eyes with black pupils", "friendly small smile", "flat-vector silhouette"]
-      background: "continuous near-black; no tile, frame, sticker, or standalone background"
+      selected_asset: assets/mascot-references/mascot-front-welcome.jpg
+      action_variant_authorized: false
+      action_variant_status: original
+      reader_job_role: "Quietly observes the controlled comparison method without displacing the information."
+      placement_zone: "Fixed upper-right quiet zone; 98 px wide; outside title and card area."
+      background: "Exact continuous #070915 canvas; source outer margin cropped non-destructively; no tile, frame, border, or sticker."
 
-  - id: unified-coding-model-comparison-workflow
-    file: assets/images/unified-coding-model-comparison-workflow.png
-    dimensions: 2560x1440
-    mode: editorial-illustration
-    status: illustrative
+  - id: unified-coding-workflow-snapshot
+    file: assets/images/unified-coding-workflow-snapshot.png
+    source: assets/sources/section-screenshots/unified-workflow-snapshot.html
+    dimensions: 1280x720
+    mode: diagram-information-snapshot
+    status: factual-summary
     article_placement: "Immediately after the quick answer under ## Compare coding models through one workflow"
-    reader_job: "Understand the value of one common workflow for comparable testing."
-    visual_thesis: "Several model routes can be evaluated through one controlled workflow without implying identical behavior."
-    alt: "A purple ApiFlux octopus guides three abstract model routes into one shared evaluation path ending at an accepted-result check."
-    caption: "A common workflow makes cross-model task results easier to compare."
+    reader_job: "Understand why a common test path improves comparability across candidates."
+    visual_thesis: "Shared context, a common run, and a decision record make relevant differences visible."
+    alt: "A three-stage comparison workflow showing shared task context, a common test path, and a decision record of accepted results, latency and retries, and total task cost, with a small purple ApiFlux mascot in the upper-right corner."
+    caption: "A common test path makes accepted results, latency, retries, and total task cost easier to compare."
+    social_reuse: false
     mascot_decision:
       decision: include
-      action_variant_authorized: true
-      authorization: "User explicitly authorized mascot action adjustment on 2026-08-27."
-      reference_assets:
-        - assets/mascot-references/mascot-running-wink.jpg
-        - assets/images/coding-task-tier-selection.png
-        - assets/images/coding-model-evaluation-loop.png
-      intended_action: "Guide three abstract incoming routes toward one shared acceptance check."
-      identity_anchors: ["purple-to-violet rounded head and tentacles", "lavender belly", "simple white eyes with black pupils", "friendly small smile", "flat-vector silhouette"]
-      background: "continuous near-black; no tile, frame, sticker, or standalone background"
+      selected_asset: assets/mascot-references/mascot-waving.jpg
+      action_variant_authorized: false
+      action_variant_status: original
+      reader_job_role: "Introduces the common workflow in the quiet upper-right anchor without displacing the information."
+      placement_zone: "Fixed upper-right quiet zone; 102 px wide; outside title and card area."
+      background: "Exact continuous #0D0D15 canvas; no tile, frame, border, or sticker."
 
 qa:
-  no_generated_logo_or_text: true
-  no_unverified_data_or_benchmark_claim: true
-  original_mascot_identity_used_as_direct_reference: true
-  user_authorized_action_variants: true
-  all_visuals_have_descriptive_alt_and_caption: true
-  social_reuse_approved: false
+  old_large_mascot_illustrations_withdrawn: true
+  supplied_mascot_sources_used_without_generated_pose_changes: true
+  mascot_fixed_upper_right_and_visually_subordinate: true
+  mascot_independent_tile_or_card: false
+  factual_claims_are_derived_from_nearby_article_text: true
+  descriptive_alt_and_caption_in_article: true
   final_editor_approval: pending

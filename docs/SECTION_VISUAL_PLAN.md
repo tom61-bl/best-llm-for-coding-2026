@@ -1,23 +1,21 @@
 # Section visual plan — Best LLM for Coding in 2026
 
-## Purpose
+## Replacement decision
 
-This plan adds three **illustrative** mascot-led section visuals to improve scanning and memory without pretending to show product UI, benchmark results, pricing, or operational evidence. Each image supports a different reader job and is paired with surrounding HTML/Markdown text that carries the factual claim.
+The previous mascot-led editorial illustrations are withdrawn. They made the mascot the main subject and did not meet the required section-visual role. This replacement set uses compact **information snapshots**: the article’s factual logic is the focal point, while one supplied original mascot acts only as a small, fixed upper-right brand anchor.
 
-| ID | Article placement | Reader job | Visual thesis | Mascot action | Mode |
+| ID | Article placement | Reader job | Primary information | Mascot source and placement | Mode |
 |---|---|---|---|---|---|
-| `task-tier-selection` | Immediately after the quick answer under `## Which LLM is best for your coding task?` | Recognize that task shape determines the model tier to test first. | Route predictable, daily, and ambiguous work to appropriately escalating tiers. | Uses three tentacles to sort three unlabeled color paths from cyan through blue to violet. | Illustrative editorial diagram |
-| `evaluation-loop` | Immediately after the quick answer under `## How to evaluate the best code LLM for your team` | Remember to hold variables constant, test repeatedly, and accept only checked work. | Good comparisons require repeatable evaluation loops rather than one-off impressions. | Focusedly examines a simple loop of abstract task, test, and check symbols. | Illustrative editorial diagram |
-| `unified-comparison-workflow` | Immediately after the quick answer under `## Compare coding models through one workflow` | Understand the value of a common workflow for comparable testing. | Several model routes can be evaluated through one controlled workflow without implying identical behavior. | Guides three incoming abstract routes into one neutral evaluation path and a check symbol. | Illustrative editorial diagram |
+| `coding-task-tier-snapshot` | Immediately after the quick answer under `## Which LLM is best for your coding task?` | Choose a first model tier from task shape rather than a global leaderboard. | Three task profiles: predictable, daily production, and high risk; each maps to a starting tier. | `mascot-waving.jpg`, 102 px, fixed upper-right; a welcoming guide to the routing framework. | Diagram / information snapshot |
+| `coding-model-evaluation-snapshot` | Immediately after the quick answer under `## How to evaluate the best code LLM for your team` | Build a fair, repeatable comparison before trusting results. | Same environment → same task set → same acceptance checks. | `mascot-front-welcome.jpg`, 98 px, fixed upper-right; a quiet observer of the evaluation method. | Diagram / information snapshot |
+| `unified-coding-workflow-snapshot` | Immediately after the quick answer under `## Compare coding models through one workflow` | Understand why a common test path makes results comparable. | Shared input → common run → decision record. | `mascot-waving.jpg`, 102 px, fixed upper-right; introduces the shared workflow. | Diagram / information snapshot |
 
-## Authorized mascot action variants
+## Composition rules
 
-The user explicitly authorized action and pose adjustment for the supplied purple octopus mascot. Every asset must preserve the rounded purple-to-violet head and tentacles, lavender belly, simple friendly face, flat-vector silhouette, and near-black editorial world. All three images are **illustrative**, contain no readable text, logo, model name, price, fabricated UI, chart, or benchmark claim, and must use the supplied mascot images as direct references.
+Every screenshot is `1280 × 720` and keeps 40–60% of its visual energy in information hierarchy and whitespace rather than mascot decoration. The mascot is never a node, label, data point, arrowhead, legend, or main illustration. It appears at the upper-right at approximately 8% of canvas width, outside the title and information area. It uses the original supplied source file, without generated pose changes, recoloring, or a dedicated card.
 
-## Article embed metadata
+The task-tier and workflow snapshots use the wave source over an exact matching continuous near-black canvas. The evaluation snapshot uses the front-facing source over its exact matching continuous near-black canvas; its non-subject outer margin is cropped non-destructively. This avoids separate mascot tiles or visible background blocks.
 
-| Filename | Alt text | Caption | Social reuse |
-|---|---|---|---|
-| `coding-task-tier-selection.png` | A purple ApiFlux octopus uses its tentacles to route three unlabeled work paths from a fast cyan route through a balanced blue route to a frontier violet route. | Match the first model tier to task risk, repeatability, and verification. | No |
-| `coding-model-evaluation-loop.png` | A focused purple ApiFlux octopus examines a loop of abstract task, test, retry, and accepted-result symbols. | Compare models with repeated, controlled tasks and predefined acceptance checks. | No |
-| `unified-coding-model-comparison-workflow.png` | A purple ApiFlux octopus guides three abstract model routes into one shared evaluation path ending at an accepted-result check. | A common workflow makes cross-model task results easier to compare. | No |
+## Factual and accessibility boundary
+
+All labels and claims in the three screenshots are direct summaries of nearby article text. The images show no price, benchmark, ranking, real product screen, provider logo, model ID, or fabricated UI. The nearby article text remains the complete factual source. Each asset is ineligible for OG/social reuse and has descriptive alt text and a caption in the article.
