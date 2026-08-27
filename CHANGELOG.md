@@ -9,15 +9,18 @@ All notable repository changes are recorded here. This file tracks changes to th
 | Area | Change |
 |---|---|
 | Editorial source | Added the draft guide, `Best LLM for Coding in 2026: Choose by Task and Cost`. |
-| Visual assets | Added a 16:9 article hero / social image, a task-routing diagram, and the editable Mermaid diagram source. |
-| SEO handoff | Added canonical, metadata, image, Article JSON-LD, hreflang, draft-indexing, and publication-QA guidance. |
-| Repository documentation | Added a full README, contribution standards, content workflow, release checklist, PR template, and repository ignore rules. |
+| Visual assets | Added a 16:9 article hero, a dedicated 1200 × 630 social-preview image, a task-routing diagram, and the editable Mermaid diagram source. |
+| SEO handoff | Added canonical, metadata, image, BlogPosting JSON-LD, hreflang, draft-indexing, migration, and publication-QA guidance. |
+| Repository documentation | Added a full README, contribution standards, content workflow, release checklist, PR template, changelog, repository ignore rules, source-audit record, and SEO content brief. |
 
 ### Changed
 
 | Area | Change |
 |---|---|
 | Article packaging | Separated reader-facing article copy from implementation-only publication instructions. |
+| Article facts | Refreshed the model shortlist, direct-provider price snapshots, task tiers, FAQ, citations, and verification date against current provider documentation. |
+| URL strategy | Selected the canonical blog path `/blog/best-llm-for-coding`; documented duplicate-path avoidance and a migration requirement only if `/coding-models` is already live. |
+| Visual policy | Updated the routing diagram to match the refreshed shortlist and split the in-content hero from the dedicated social-preview asset. |
 | PR review | Expanded the pull-request description and template to capture factual checks, visual changes, SEO handoff, and release impact. |
 
 ## Change-log rules

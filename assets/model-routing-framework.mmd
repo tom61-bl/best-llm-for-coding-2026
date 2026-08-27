@@ -2,13 +2,13 @@
 flowchart LR
     task[Incoming coding task] --> classify{Task profile}
     classify -->|Ambiguous, repo-scale, high risk| frontier[Frontier tier<br/>Claude Opus 5 or GPT-5.6 Sol]
-    classify -->|Daily feature, bug fix, review| balanced[Balanced tier<br/>Claude Sonnet 5]
-    classify -->|Repeatable, high-volume work| fast[Fast / cost tier<br/>Gemini 3.6 Flash, GPT-5.6 Luna,<br/>or DeepSeek V4 Pro]
+    classify -->|Daily feature, bug fix, review| balanced[Balanced tier<br/>Claude Sonnet 5 or GPT-5.6 Terra]
+    classify -->|Repeatable, high-volume work| fast[Fast / cost tier<br/>Gemini 3.7 Flash, GPT-5.6 Luna,<br/>or DeepSeek V4 Pro]
     frontier --> verify[Run acceptance checks]
     balanced --> verify
     fast --> verify
     verify -->|Pass| accept[Accepted result]
-    verify -->|Fail or retry budget exceeded| escalate[Escalate to frontier tier]
+    verify -->|Fail or retry budget exceeded| escalate[Escalate to frontier tier<br/>Evaluate Claude Fable 5 only when justified]
     escalate --> frontier
 
     classDef task fill:#1F1B2D,stroke:#1F1B2D,color:#FFFFFF;

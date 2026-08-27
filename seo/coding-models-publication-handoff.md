@@ -1,55 +1,82 @@
-# Coding Models — SEO Publication Handoff
+# Best LLM for Coding — SEO Publication Handoff
 
-This document contains implementation instructions for the page at `/coding-models`. It is **not reader-facing page copy** and should not be rendered inside the article body.
+This document contains implementation instructions for the article at **`/blog/best-llm-for-coding`**. It is **not reader-facing page copy** and must not be rendered inside the article body. The recommended URL follows ApiFlux’s existing `/blog/<descriptive-slug>` content architecture and uses a short, descriptive, non-date-bound slug.[1] [2]
+
+## Final URL decision
+
+| Decision | Required implementation |
+|---|---|
+| Canonical article URL | `https://apiflux.ai/blog/best-llm-for-coding` |
+| Page type | New evergreen editorial article, refreshed over time with a year in the title when substantively warranted. |
+| Why this path | It is descriptive, human-readable, query-aligned, hyphenated, and consistent with the existing ApiFlux blog URL pattern. |
+| Do not use as a duplicate article path | `/coding-models` should not render a separate canonical copy of this article. Reserve it for a future model directory or topic hub. |
+| If `/coding-models` is already live or indexed | Use one permanent 301 redirect to the canonical blog URL, update internal links and sitemaps, retain no competing canonical, and monitor the migration. |
+| If `/coding-models` has never gone live | Do not create it; ship only the final canonical blog URL. |
 
 ## Page intent and metadata
 
-The page should target developers evaluating coding LLMs. Its editorial promise is practical selection by **task success, agent reliability, latency, and total accepted-task cost**, rather than a universal benchmark ranking.
+The page is for developers and engineering leaders evaluating LLMs for coding. Its editorial promise is practical selection by **task success, agent reliability, latency, and total accepted-task cost**, rather than a universal benchmark ranking.
 
-| Field | Publication value |
+| Field | Production value |
 |---|---|
-| Canonical URL | `https://apiflux.ai/coding-models` |
-| Page title | `Best LLM for Coding in 2026: Choose by Task and Cost` |
-| Meta description | `Compare the best LLMs for coding in 2026 by task success, agent reliability, latency, and total cost. Use a practical evaluation and routing guide.` |
+| Browser title | `Best LLM for Coding in 2026: Choose by Task and Cost` |
+| Meta description | `Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost.` |
+| Canonical URL | `https://apiflux.ai/blog/best-llm-for-coding` |
 | Primary query | `best LLM for coding` |
-| Supporting queries | `best coding LLM 2026`; `best LLM for agentic coding`; `coding agent model`; `LLM coding cost` |
-| Author | `ApiFlux Editorial Team` |
-| Date modified | `2026-08-26` |
-| Robots status | Draft / noindex until the publication gate passes |
+| Supporting queries | `best coding LLM 2026`; `best LLM for agentic coding`; `coding agent model`; `LLM coding cost`; `AI coding model comparison` |
+| Visible author | `ApiFlux Editorial Team` linked to `https://apiflux.ai/about` |
+| Visible date | Use a truthful publication date and `Updated August 27, 2026` only while the cited facts remain verified on that date. |
+| Robots status before release | Draft / `noindex`; exclude from production sitemap. |
+| Robots status after release | Indexable only after the complete release checklist is evidenced. |
+
+The title, description, byline, modified date, summary table, FAQ, and schema must describe the same article. The page should demonstrate original analysis and clear sourcing, not merely repeat provider marketing language.[3]
 
 ## Image asset map
 
-| Asset | Repository path | Intended placement | Alt text / purpose |
+| Asset | Repository path | Production role | Alt text / implementation note |
 |---|---|---|---|
-| Article hero and social preview | `assets/images/best-llm-for-coding-2026-hero.jpg` | Immediately below the H1; also publish as `og:image` | `Abstract AI routing hub connecting coding, analysis, and repository-workflow panels` |
-| Model-routing framework | `assets/images/model-routing-framework.png` | After the practical model-selection policy | `Decision flow for routing coding tasks by difficulty, repeatability, and verification outcome` |
-| Maintainable diagram source | `assets/model-routing-framework.mmd` | Repository-only source | Mermaid source for regenerating the route diagram |
+| Article hero | `assets/images/best-llm-for-coding-2026-hero.jpg` | Display directly below the H1, adjacent to the introductory decision framework. | `Abstract AI routing hub connecting coding, analysis, and repository-workflow panels` |
+| Social preview | `assets/images/best-llm-for-coding-2026-social.jpg` | Use as `og:image` and `twitter:image`; publish as a stable, crawlable production URL. | The social image needs no duplicated title text; the page metadata provides the accessible headline. |
+| Model-routing framework | `assets/images/model-routing-framework.png` | Display after the model-selection policy. | `Decision flow for routing coding tasks by difficulty, repeatability, and verification outcome` |
+| Diagram source | `assets/model-routing-framework.mmd` | Repository-only source for the route diagram. | Regenerate the PNG after any policy, model, or tier-label change. |
 
-The hero image is a 2560 × 1440 landscape asset with intentionally open upper-left space for a page-title overlay if the CMS supports it. Do not bake page title text into the image. The routing framework is intentionally rendered from source so its labels can be corrected whenever the routing policy changes.
+The hero is a 2560 × 1440 in-content editorial asset. The social preview is a dedicated 1200 × 630 image, chosen for broad social-preview compatibility. Do not embed essential, change-prone copy into either image. Meaningful images should be present as standard HTML images with descriptive alternative text, responsive delivery, and a crawlable `src` fallback.[4]
 
-## Front-end image requirements
+## Social metadata
 
-Use standard HTML image elements, serve a responsive optimized rendition, and retain a crawlable `src` fallback. The image should appear adjacent to semantically related content and use the supplied descriptive alt text. The final page should declare the hero as the preferred page image through `og:image` and `primaryImageOfPage`. These measures align with Google’s public image-discovery guidance.[1]
+Render the following values from the CMS after the final production image URL has been confirmed. Do not publish a nonexistent image URL, staging hostname, or draft placeholder.
+
+| Field | Production value |
+|---|---|
+| `og:type` | `article` |
+| `og:title` | `Best LLM for Coding in 2026: Choose by Task and Cost` |
+| `og:description` | `Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost.` |
+| `og:url` | `https://apiflux.ai/blog/best-llm-for-coding` |
+| `og:image` | Final CDN URL for `best-llm-for-coding-2026-social.jpg` |
+| `twitter:card` | `summary_large_image` |
+| `twitter:title` | Same as `og:title` |
+| `twitter:description` | Same as `og:description` |
+| `twitter:image` | Same final image URL as `og:image` |
 
 ## Structured-data implementation
 
-Add an `Article` JSON-LD node after the CMS assigns the final URL and publisher details. The values in the markup must match the visible page; never ship placeholder values. In particular, include the article `headline`, `image`, `datePublished`, `dateModified`, and author information. Google recommends these applicable fields for Article-type pages and advises validating markup before release.[2]
+Use a `BlogPosting` JSON-LD node because the article belongs in the ApiFlux blog. `BlogPosting` is an Article subtype supported by Google’s Article documentation. Every value must match visible page content or a final production value; do not ship placeholders.[5]
 
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://apiflux.ai/coding-models"
+    "@id": "https://apiflux.ai/blog/best-llm-for-coding"
   },
   "headline": "Best LLM for Coding in 2026: Choose by Task and Cost",
-  "description": "Compare the best LLMs for coding in 2026 by task success, agent reliability, latency, and total cost.",
+  "description": "Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost.",
   "image": [
-    "https://apiflux.ai/images/blog/best-llm-for-coding-2026-hero.jpg"
+    "FINAL_SOCIAL_IMAGE_URL"
   ],
-  "datePublished": "SET_ON_INITIAL_PUBLICATION",
-  "dateModified": "2026-08-26",
+  "datePublished": "FINAL_ISO_8601_PUBLICATION_DATE",
+  "dateModified": "2026-08-27",
   "author": {
     "@type": "Organization",
     "name": "ApiFlux Editorial Team",
@@ -59,19 +86,42 @@ Add an `Article` JSON-LD node after the CMS assigns the final URL and publisher 
     "@type": "Organization",
     "name": "ApiFlux",
     "url": "https://apiflux.ai"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "ApiFlux Blog",
+    "url": "https://apiflux.ai/blog"
   }
 }
 ```
 
-## Hreflang and indexing
+## Internal-link plan
 
-Do not output localized canonical or hreflang URLs until every localized page exists, self-canonicalizes, and returns HTTP 200. While the page remains draft, retain `noindex` and exclude it from the production sitemap. On release, remove the draft guard, update the sitemap, validate the live URL, and submit or request recrawl through the normal search-console workflow.
+The final article should give readers a natural next step without interrupting the editorial answer. Add the following links only when the destinations are live and directly support the linked phrase.
 
-## Publication QA
+| Reader context | Recommended destination | Anchor-text principle |
+|---|---|---|
+| Needs live model availability or current displayed pricing | `/models` | Use `ApiFlux Models page` or `compare current model availability and prices`. |
+| Wants to run an evaluation | `/docs/quickstart` | Use `ApiFlux Quickstart` or `run the same suite through one API workflow`. |
+| Is ready to test a model | `/keys` | Use a restrained product action such as `Create an API key`; do not interrupt the opening answer with a sales CTA. |
+| Wants related analysis | Relevant live `/blog/<slug>` article | Use descriptive, topic-specific anchor text; do not link to placeholders. |
 
-Before release, verify the rendered title, meta description, canonical URL, visible author and modified date, hero image URL, social preview, responsive image behavior, in-content alt text, Article JSON-LD, internal links, external source links, build output, and HTTP 200 response. Validate structured data with the Rich Results Test and inspect the live page after publishing.[2]
+## Hreflang, indexing, and migration
+
+Do not output localized canonical or hreflang URLs until every localized page exists, self-canonicalizes, and returns HTTP 200. While the page remains draft, retain `noindex` and exclude it from the production sitemap. On release, remove the draft guard, add the final canonical URL to the appropriate sitemap, validate the live URL, and request normal discovery or recrawl through the site’s standard process.
+
+If moving from an already-live `/coding-models` URL, test the permanent redirect, self-canonical final page, internal-link updates, and sitemap replacement together. Do not make a temporary redirect, publish duplicate copies, or leave an old self-canonical page competing with the new article URL.
+
+## Release QA
+
+Before release, verify the rendered H1, browser title, meta description, canonical URL, visible byline and dates, hero image URL, social preview, responsive image behavior, in-content alt text, internal and external links, BlogPosting JSON-LD, mobile table rendering, build output, and HTTP 200 response. Validate structured data with the Rich Results Test and check the live URL after publishing.[5]
+
+Record all evidence in [`docs/PUBLISHING_CHECKLIST.md`](../docs/PUBLISHING_CHECKLIST.md). The article can be indexed only after every applicable release check is complete.
 
 ## References
 
-[1]: https://developers.google.com/search/docs/appearance/google-images "Google Search Central — Image SEO best practices"
-[2]: https://developers.google.com/search/docs/appearance/structured-data/article "Google Search Central — Article structured data"
+[1]: https://apiflux.ai/blog "ApiFlux Blog"
+[2]: https://developers.google.com/search/docs/crawling-indexing/url-structure "Google Search Central — URL structure best practices"
+[3]: https://developers.google.com/search/docs/fundamentals/creating-helpful-content "Google Search Central — Creating helpful, reliable, people-first content"
+[4]: https://developers.google.com/search/docs/appearance/google-images "Google Search Central — Image SEO best practices"
+[5]: https://developers.google.com/search/docs/appearance/structured-data/article "Google Search Central — Article structured data"

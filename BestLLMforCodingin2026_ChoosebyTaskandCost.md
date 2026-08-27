@@ -1,70 +1,89 @@
 ---
 title: "Best LLM for Coding in 2026: Choose by Task and Cost"
-description: "Compare the best LLMs for coding in 2026 by task success, agent reliability, latency, and total cost."
-slug: "/coding-models"
-last_updated: "2026-08-26"
+description: "Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost."
+slug: "/blog/best-llm-for-coding"
+canonical_url: "https://apiflux.ai/blog/best-llm-for-coding"
+author: "ApiFlux Editorial Team"
+date_modified: "2026-08-27"
+fact_checked: "2026-08-27"
 ---
 
 # Best LLM for Coding in 2026: Choose by Task and Cost
 
-**Updated August 26, 2026**
+**By ApiFlux Editorial Team · Updated August 27, 2026 · Facts and public list prices checked August 27, 2026**
 
-There is no universal best LLM for coding. For difficult repository-scale or long-running agent work, begin your evaluation with **Claude Opus 5** and **GPT-5.6 Sol**. For a balanced production default, test **Claude Sonnet 5**. For fast, high-volume work, compare **Gemini 3.6 Flash** and **GPT-5.6 Luna**. When API cost is the primary constraint, include **DeepSeek V4 Pro** in the test set.
+There is no universal best LLM for coding. For the hardest long-running or repository-scale agent work, begin with **Claude Opus 5** and **GPT-5.6 Sol**; add **Claude Fable 5** only when the highest available capability is worth its much higher price. For a balanced production default, compare **Claude Sonnet 5** and **GPT-5.6 Terra**. For fast, high-volume work, test **Gemini 3.7 Flash** and **GPT-5.6 Luna**. When direct API cost is the main constraint, include **DeepSeek V4 Pro** in the evaluation.
 
-The right coding model is not necessarily the benchmark leader. It is the model that completes your own tasks reliably, within the required latency, at the **lowest total cost per accepted result**. That total includes failed attempts, retries, tool calls, generated tokens, and engineer review time—not only the provider’s input-token price.
+The right coding model is not necessarily the benchmark leader. It is the model that completes **your** tasks reliably, within the required latency, at the **lowest total cost per accepted result**. That cost includes failed attempts, retries, tool calls, generated tokens, and engineer review time—not only the input-token price.
 
 ![Abstract AI routing hub connecting coding, analysis, and repository-workflow panels](assets/images/best-llm-for-coding-2026-hero.jpg)
 
+> **Use this guide as an evaluation shortlist, not a universal ranking.** Provider descriptions explain which models are worth testing; your repository tasks, acceptance checks, and operating constraints determine the final choice.
+
 ## Best coding LLMs at a glance
 
-**Quick answer:** Start hard agentic evaluations with Claude Opus 5 and GPT-5.6 Sol; use Claude Sonnet 5 as the balanced baseline; test Gemini 3.6 Flash and GPT-5.6 Luna for fast, repeatable work; and add DeepSeek V4 Pro to a cost-focused comparison.
+**Quick answer:** Start daily production-agent tests with Claude Sonnet 5 and GPT-5.6 Terra. Escalate hard repository work to Claude Opus 5 or GPT-5.6 Sol, and consider Claude Fable 5 when maximum capability outweighs cost. Test Gemini 3.7 Flash and GPT-5.6 Luna for fast, repeatable workloads. Add DeepSeek V4 Pro to a budget-focused comparison.
 
-| Model | Best starting use | Upstream price per 1M tokens (input / output) | Context | Why it belongs in the test set |
+| Model | Best starting use | Direct provider list price per 1M tokens (input / output) | Context | Why it belongs in the test set |
 |---|---|---:|---:|---|
-| Claude Opus 5 | Long-running agents, difficult refactors, high-stakes repository work | $5 / $25 | 1M | Anthropic positions it for complex agentic coding and enterprise work. [2] |
-| GPT-5.6 Sol | Complex reasoning, coding, and tool-heavy workflows | $5 / $30 | 1.05M | OpenAI recommends it as a flagship starting point for complex reasoning and coding. [1] |
-| Claude Sonnet 5 | Balanced production agents, daily feature work, code review | $3 / $15 list price | 1M | Anthropic describes it as a balance of speed and intelligence with agentic coding and tool use. [2] |
-| Gemini 3.6 Flash | Fast agent loops, multimodal inputs, high-throughput tasks | $1.50 / $7.50 | 1M | Google positions it as a speed-focused model for agentic and multimodal tasks. [3] |
-| GPT-5.6 Luna | Cost-sensitive generation, triage, repetitive code transformations | $1 / $6 | 1.05M | OpenAI positions it for efficient, high-volume workloads. [1] |
-| DeepSeek V4 Pro | Budget-sensitive agents and large-context experiments | $0.435 cache miss / $0.87 output | 1M | DeepSeek documents tool calling, JSON output, thinking modes, and low token pricing. [4] |
+| Claude Fable 5 | Highest-capability evaluation, long-running agents, difficult open-ended work | $10 / $50 | 1M | Anthropic describes Fable 5 as its next-generation intelligence tier for long-running agents. [2] |
+| Claude Opus 5 | Difficult refactors, high-stakes repository work, complex agentic coding | $5 / $25 | 1M | Anthropic positions Opus 5 for complex agentic coding and enterprise work. [2] |
+| GPT-5.6 Sol | Complex reasoning, coding, and tool-heavy workflows | $4 / $20 | 1.05M | OpenAI recommends Sol as its flagship starting point for complex reasoning and coding. [1] |
+| Claude Sonnet 5 | Daily features, debugging, test writing, code review, balanced agents | $2 / $10 | 1M | Anthropic presents Sonnet 5 as its best combination of speed and intelligence. [2] |
+| GPT-5.6 Terra | A balanced alternative for coding and tool use | $2 / $12 | 1.05M | OpenAI positions Terra as the GPT-5.6 option that balances intelligence and cost. [1] |
+| Gemini 3.7 Flash | Fast agent loops, multimodal inputs, high-throughput coding tasks | $0.75 / $3.75 through Dec. 31, 2026 | 1.049M | Google describes 3.7 Flash as its most capable Flash model for agentic workflows and multimodal reasoning. [3] [4] |
+| GPT-5.6 Luna | Cost-sensitive generation, triage, and repetitive code transformations | $0.20 / $1.20 | 1.05M | OpenAI positions Luna for cost-sensitive, high-volume workloads. [1] |
+| DeepSeek V4 Pro | Budget-sensitive agents and large-context experiments | Peak: $1.32 / $3.96; off-peak: $0.66 / $1.98 | 1M | DeepSeek documents thinking, JSON output, tool calling, and a 1M-token context window. [5] |
 
-Prices are **upstream public list prices in USD**, checked August 18, 2026. Cached input, batch, priority, promotional, tool, and gateway charges may differ. Anthropic’s documentation lists a temporary **$2 / $10** introductory price for Sonnet 5 through August 31, 2026; this comparison uses the normal **$3 / $15** list price so that the decision does not depend on a short-lived promotion. DeepSeek separately lists cache-hit input at **$0.003625 per 1M tokens**. Confirm current ApiFlux availability, model IDs, limits, and displayed prices on the [ApiFlux Models page](https://apiflux.ai/models) before implementation.
+All values are **direct-provider public list prices in USD per 1M tokens**, checked August 27, 2026. The figures above exclude negotiated enterprise pricing and may exclude or vary with caching, batch, priority, tool, storage, regional, promotional, or gateway charges. Gemini 3.7 Flash has a published time-bound paid-tier price through December 31, 2026; its listed price changes after that date. DeepSeek publishes separate peak and off-peak rates, so a single “DeepSeek price” without its time condition is incomplete. Before implementation, confirm current model IDs, availability, rate limits, and displayed ApiFlux prices on the [ApiFlux Models page](https://apiflux.ai/models). [4] [5] [6]
 
-> **Editorial scope:** This is a practical shortlist, not an ApiFlux benchmark leaderboard. Provider descriptions are useful for deciding what to test, but they are **vendor capability statements, not proof** that a model will win on your repository.
+> **Editorial scope:** This is a practical shortlist, not an ApiFlux benchmark leaderboard. The provider descriptions cited here are vendor capability statements, not proof that one model will outperform another on your repository.
+
+## How this guide makes recommendations
+
+**Quick answer:** This guide selects models to test from current provider documentation and a common production-routing use case. It does not claim that ApiFlux has independently benchmarked every model or that any provider statement guarantees success on your codebase.
+
+A useful coding-model comparison must separate **published capability claims** from **operational evidence**. The shortlist covers three decisions that teams repeatedly face: which model should handle ambiguous repository work, which model should be the affordable default for daily agent loops, and which lower-cost tier has earned trust on predictable work. The final answer should come from repeated trials on your own repository with stable tools, instructions, budgets, and acceptance checks.
 
 ## Which LLM is best for your coding task?
 
 **Quick answer:** Match the model to task difficulty, required reliability, speed, and total cost. Use frontier models for uncertain, long-horizon work; use balanced models for daily production tasks; and use lower-cost tiers only where their reliability has been proven on the work you will automate.
 
+### Highest-capability candidate: Claude Fable 5
+
+**Verdict:** Include Claude Fable 5 only when difficult, long-running work justifies evaluating the highest available capability tier before cost optimization.
+
+Anthropic describes Fable 5 as its next-generation intelligence tier for long-running agents and lists a 1M-token context window. Its direct public price is materially higher than the rest of this shortlist, so it should be a deliberate escalation candidate rather than an unattended global default. Test it on the tasks where a failed attempt is genuinely expensive: open-ended repository work, multi-stage migrations, or agents that need to recover from several tool failures. [2]
+
 ### Best for difficult agentic coding: Claude Opus 5 or GPT-5.6 Sol
 
-**Verdict:** Claude Opus 5 and GPT-5.6 Sol are the first two models to test for difficult repository-scale coding work.
+**Verdict:** Claude Opus 5 and GPT-5.6 Sol are the first two models to test for difficult repository-scale coding work when Claude Fable 5 is not justified by the risk or budget.
 
-Use this tier when an agent must inspect a large repository, create a plan, modify several files, run commands, diagnose failures, and continue until tests pass. Anthropic describes Claude Opus 5 as supporting long-context work, tool calling, reasoning, and multi-agent coordination. OpenAI describes GPT-5.6 Sol as a flagship option for complex production workflows and coding. Those descriptions justify inclusion in an evaluation; they do not establish a winner. [1] [2]
+Use this tier when an agent must inspect a large repository, create a plan, modify several files, run commands, diagnose failures, and continue until tests pass. Anthropic positions Claude Opus 5 for complex agentic coding and enterprise work; OpenAI positions GPT-5.6 Sol as its flagship starting point for complex reasoning and coding. Those descriptions justify inclusion in an evaluation, but they do not establish a winner. [1] [2]
 
-Compare both models on identical tasks and record whether each one finds the right files before editing, follows project instructions and architecture, uses tools correctly after a failed command, produces a minimal reviewable diff, and reaches passing tests without human repair. The higher-token-price model may still be more economical if it prevents retries and engineer intervention.
+Compare the models on identical tasks and record whether each one finds the right files before editing, follows project instructions and architecture, uses tools correctly after a failed command, produces a minimal reviewable diff, and reaches passing tests without human repair. The higher-token-price model may still be the lower-cost production choice if it prevents retries and engineer intervention.
 
-### Best default for production coding agents: Claude Sonnet 5
+### Best balanced default for production coding agents: Claude Sonnet 5 or GPT-5.6 Terra
 
-**Verdict:** Claude Sonnet 5 is a strong balanced baseline for a production coding agent, but it must still earn the default role on your own suite.
+**Verdict:** Claude Sonnet 5 and GPT-5.6 Terra are strong balanced baselines for a production coding agent, but either model must earn the default role on your own suite.
 
-Test Sonnet 5 when one model needs to cover feature implementation, debugging, test writing, code review, and routine agent loops. Anthropic positions it as improving reasoning, tool use, coding, and knowledge work while remaining faster and less expensive than its Opus tier. [2]
+Test this tier when one model needs to cover feature implementation, debugging, test writing, code review, and routine agent loops. Anthropic describes Sonnet 5 as the best combination of speed and intelligence; OpenAI describes Terra as its GPT-5.6 balance of intelligence and cost. Compare them on the repeated, reviewable work that makes up most of your engineering queue, then reserve the more expensive tier for escalations. [1] [2]
 
-That positioning makes it a sensible default candidate rather than an automatic choice. Test it against Opus 5 on the hardest tasks and against cheaper models on predictable work. A simple router can reserve the expensive model for escalations while sending routine tasks to the lower-cost tier.
+That positioning makes both models sensible default candidates rather than automatic choices. A practical router can send routine tasks to the balanced tier, use a lower-cost tier only after it has proven reliable, and escalate when a task fails its verifier or retry budget.
 
-### Best for fast, high-volume coding work: Gemini 3.6 Flash or GPT-5.6 Luna
+### Best for fast, high-volume coding work: Gemini 3.7 Flash or GPT-5.6 Luna
 
-**Verdict:** Gemini 3.6 Flash and GPT-5.6 Luna are the leading candidates to evaluate when throughput, response time, and unit cost matter more than maximum reasoning depth.
+**Verdict:** Gemini 3.7 Flash and GPT-5.6 Luna are the leading candidates to evaluate when throughput, response time, and unit cost matter more than maximum reasoning depth.
 
-This tier is suited to test-case generation, code classification, documentation updates, structured extraction, lint-fix suggestions, and repetitive migrations. Google lists Gemini 3.6 Flash with a 1M-token context window and positions it for agentic and multimodal work, while OpenAI positions GPT-5.6 Luna for cost-sensitive, high-volume workloads. [1] [3]
+This tier is suited to test-case generation, code classification, documentation updates, structured extraction, lint-fix suggestions, and repetitive migrations. Google positions Gemini 3.7 Flash as its most capable Flash model for agentic workflows and multimodal reasoning, while OpenAI positions GPT-5.6 Luna for cost-sensitive, high-volume workloads. [1] [3]
 
 Before routing unattended production work to either model, validate structured-output reliability and tool-call accuracy. A low token price does not make a workflow cheaper when malformed outputs, missed constraints, or repeated retries return the work to an engineer.
 
 ### Best low-cost candidate: DeepSeek V4 Pro
 
-**Verdict:** DeepSeek V4 Pro is the first low-cost model to add to a budget-focused coding evaluation, particularly for large-context experiments.
+**Verdict:** DeepSeek V4 Pro is the first lower-cost model to add to a budget-focused coding evaluation, particularly for large-context experiments.
 
-DeepSeek V4 Pro merits comparison because its published API pricing is far below the other models in this shortlist. DeepSeek documents a 1M-token context window, tool calls, JSON output, and both thinking and non-thinking modes. [4]
+DeepSeek V4 Pro merits comparison because its published API pricing is below the frontier tiers in this shortlist. The provider documents a 1M-token context window, tool calls, JSON output, and both thinking and non-thinking modes. Its pricing changes between peak and off-peak periods, however, so measure the price that applies to your operating window rather than relying on a single headline number. [5]
 
 Treat these specifications as a reason to test the model—not as a substitute for testing it. Measure instruction adherence, patch quality, tool-loop stability, latency, and availability across the languages and frameworks your team actually uses. For simpler workloads, include the provider’s V4 Flash tier in the same evaluation.
 
@@ -74,13 +93,13 @@ Treat these specifications as a reason to test the model—not as a substitute f
 
 Token prices are simple to compare and simple to misuse. Agentic coding creates cost across an entire loop:
 
-<code>total task cost = input + cached input + output + tools + retries + review time</code>
+`total task cost = input + cached input + output + tools + retries + review time`
 
 Suppose Model A has a much higher output-token price than Model B but usually succeeds on the first attempt. If Model B needs repeated retries and leaves more manual fixes, Model A can be the lower-cost production choice. The conclusion may reverse on a simpler workload, which is why routing should be driven by task type rather than a global ranking.
 
 | Metric | What to record |
 |---|---|
-| Task success | Tests pass and acceptance criteria are met without a hidden human repair. |
+| Task success | Tests pass and acceptance criteria are met without hidden human repair. |
 | First-pass success | The task succeeds without retry or escalation. |
 | Total tokens | Uncached input, cached input, reasoning, and output tokens. |
 | Tool reliability | Valid tool calls, failed commands, loops, and recovery behavior. |
@@ -124,15 +143,16 @@ A practical stack combines a reliable frontier model for ambiguous, long-horizon
 
 ## A practical model-selection policy
 
-**Quick answer:** Begin with Claude Sonnet 5 for daily agentic coding, reserve Claude Opus 5 and GPT-5.6 Sol for difficult repository tasks, test Gemini 3.6 Flash and GPT-5.6 Luna for repetitive work, and include DeepSeek V4 Pro when price or long context is important.
+**Quick answer:** Start daily agentic coding tests with Claude Sonnet 5 and GPT-5.6 Terra. Reserve Claude Opus 5 and GPT-5.6 Sol for difficult repository tasks, evaluate Claude Fable 5 only where maximum capability is justified, test Gemini 3.7 Flash and GPT-5.6 Luna for repetitive work, and include DeepSeek V4 Pro when price or long context is important.
 
 Use this policy as a starting hypothesis until your own evaluation data is available:
 
-1. Start daily agentic coding tests with **Claude Sonnet 5**.
+1. Start daily agentic coding tests with **Claude Sonnet 5** and **GPT-5.6 Terra**.
 2. Run **Claude Opus 5** and **GPT-5.6 Sol** on the hardest repository-scale tasks.
-3. Test **Gemini 3.6 Flash** and **GPT-5.6 Luna** on fast, repeatable workloads.
-4. Add **DeepSeek V4 Pro** where cost or long context is a priority.
-5. Keep the model that produces the **lowest cost per accepted task**, not the lowest token price.
+3. Add **Claude Fable 5** only when the incremental reliability is worth evaluating at its higher price.
+4. Test **Gemini 3.7 Flash** and **GPT-5.6 Luna** on fast, repeatable workloads with clear verifiers.
+5. Add **DeepSeek V4 Pro** where operating-window cost or long context is a priority.
+6. Keep the model or route that produces the **lowest cost per accepted task**, not the lowest token price.
 
 Re-run the evaluation whenever a provider changes a model version, price, context limit, tool interface, or availability. A 2026 coding-model comparison is a dated operational snapshot, not a permanent ranking.
 
@@ -146,42 +166,43 @@ Route ambiguous, repository-scale, or high-risk work to the frontier tier; keep 
 
 **Quick answer:** A unified gateway lets teams run the same evaluation suite across several coding models without implementing a separate integration for every provider.
 
-ApiFlux lets developers select an interface model ID and send requests through OpenAI-compatible, Anthropic, or Gemini protocols. First, verify currently available models, displayed prices, and limits on the [Models page](https://apiflux.ai/models). Then create an API key, complete a first request through the [Quickstart](https://apiflux.ai/docs/quickstart), connect tools such as Claude Code, Codex CLI, or OpenCode, and run your identical task suite across the shortlist.
+ApiFlux lets developers select a model ID and send requests through OpenAI-compatible, Anthropic, or Gemini protocols. First, verify currently available models, displayed prices, and limits on the [Models page](https://apiflux.ai/models). Then create an API key, complete a first request through the [Quickstart](https://apiflux.ai/docs/quickstart), connect tools such as Claude Code, Codex CLI, or OpenCode, and run the identical task suite across the shortlist.
 
-Use the resulting usage data to compare actual cost, latency, retries, tool-call reliability, and accepted-task rate. The purpose of a shared workflow is not to make vendor claims interchangeable; it is to make your test conditions comparable.
+A shared workflow does not make model behavior interchangeable. Its value is controlled comparison: the same repository, tools, instructions, acceptance checks, and cost record make the resulting usage data comparable. Use the results to compare actual cost, latency, retries, tool-call reliability, and accepted-task rate before you automate a category of work.
 
 ## Frequently asked questions
 
 ### What is the best LLM for coding in 2026?
 
-**Verdict:** There is no universal winner. Test Claude Opus 5 and GPT-5.6 Sol for difficult agentic work, Claude Sonnet 5 as a balanced production baseline, and Gemini 3.6 Flash or GPT-5.6 Luna for high-volume tasks. The best choice is the model with the strongest accepted-task rate and lowest total cost on your own work.
+**Verdict:** There is no universal winner. Test Claude Opus 5 and GPT-5.6 Sol for difficult agentic work; Claude Sonnet 5 and GPT-5.6 Terra as balanced production baselines; Gemini 3.7 Flash and GPT-5.6 Luna for high-volume tasks; and DeepSeek V4 Pro when lower direct API cost is a priority. The best choice is the model with the strongest accepted-task rate and lowest total cost on your own work.
 
 ### What is the best LLM for agentic coding?
 
-**Verdict:** The best agentic coding model reliably plans, navigates a repository, uses tools, recovers from errors, and finishes with passing tests. Claude Opus 5 and GPT-5.6 Sol are strong starting candidates for hard tasks, while Claude Sonnet 5 is a practical model to evaluate for routine production agents.
+**Verdict:** The best agentic coding model reliably plans, navigates a repository, uses tools, recovers from errors, and finishes with passing tests. Claude Opus 5 and GPT-5.6 Sol are strong starting candidates for hard tasks, while Claude Sonnet 5 and GPT-5.6 Terra are practical models to evaluate for routine production agents. Claude Fable 5 is an optional highest-capability candidate when its cost is justified.
 
 ### Is the cheapest coding model the most cost-effective?
 
-**Verdict:** No. Low token prices can be outweighed by retries, long outputs, failed tool calls, and manual repair. Compare cost per accepted task, including review time, rather than input-token price alone.
+**Verdict:** No. Low token prices can be outweighed by retries, long outputs, failed tool calls, and manual repair. Compare cost per accepted task, including review time, rather than input-token price alone. When a provider publishes time-window, cache, or promotional conditions, include those conditions in the cost record.
 
 ### Should I use one coding LLM for every task?
 
-**Verdict:** Usually not. Start with a two-tier or multi-tier router: send predictable work to a faster, lower-cost model and escalate ambiguous or failed tasks to a more capable model.
+**Verdict:** Usually not. Start with a two-tier or multi-tier router: send predictable work to a faster, lower-cost model and escalate ambiguous or failed tasks to a more capable model. Your verification quality should determine how much unattended work a lower-cost tier receives.
 
 ### How often should I re-evaluate coding models?
 
-**Verdict:** Re-evaluate after relevant changes to the model, price, context window, tool interface, or availability. Teams actively optimizing model spend should generally review monthly; teams with stable workloads can review quarterly.
+**Verdict:** Re-evaluate after relevant changes to the model, price, context window, tool interface, or availability. Teams actively optimizing model spend should generally review monthly; teams with stable workloads can review quarterly. Re-check factual values immediately before publishing a newly refreshed comparison.
 
 ### Can I test multiple coding LLMs through one API?
 
-**Verdict:** Yes. A unified model gateway can support a common API workflow for testing several providers instead of requiring a distinct integration for each one. ApiFlux supports OpenAI-compatible, Anthropic, and Gemini protocols, which can make side-by-side evaluation of cost, latency, tool-call reliability, and task success easier. Confirm current compatibility on the [ApiFlux Models page](https://apiflux.ai/models) before deploying. [5]
+**Verdict:** Yes. A unified model gateway can support a common API workflow for testing several providers instead of requiring a distinct integration for each one. ApiFlux supports OpenAI-compatible, Anthropic, and Gemini protocols, which can make side-by-side evaluation of cost, latency, tool-call reliability, and task success easier. Confirm current compatibility on the [ApiFlux Models page](https://apiflux.ai/models) before deploying. [6]
 
 ## Sources and verification record
 
-All factual entries in this article were checked **August 18, 2026**. Pricing, model IDs, availability, and provider documentation can change; verify them again immediately before publication.
+The provider facts and direct-provider price snapshots in this article were checked **August 27, 2026**. Prices, model IDs, availability, APIs, and provider documentation can change. Confirm the live provider source and the current ApiFlux Models page again immediately before publishing a refreshed version of this guide.
 
-[1]: https://platform.openai.com/docs/models "OpenAI model documentation"
-[2]: https://docs.anthropic.com/en/docs/about-claude/models/overview "Anthropic models overview"
-[3]: https://ai.google.dev/gemini-api/docs/models "Google Gemini API model documentation"
-[4]: https://api-docs.deepseek.com/quick_start/pricing "DeepSeek API pricing"
-[5]: https://apiflux.ai/models "ApiFlux Models"
+[1]: https://developers.openai.com/api/docs/models "OpenAI API — Models"
+[2]: https://platform.claude.com/docs/en/models/overview "Claude Platform Docs — Models overview"
+[3]: https://ai.google.dev/gemini-api/docs/models "Google AI for Developers — Gemini models"
+[4]: https://ai.google.dev/gemini-api/docs/pricing "Google AI for Developers — Gemini Developer API pricing"
+[5]: https://api-docs.deepseek.com/quick_start/pricing "DeepSeek API Docs — Models & Pricing"
+[6]: https://apiflux.ai/models "ApiFlux Models"

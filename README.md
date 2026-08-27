@@ -4,7 +4,7 @@
 
 ![Abstract AI routing hub connecting coding, analysis, and repository-workflow panels](assets/images/best-llm-for-coding-2026-hero.jpg)
 
-This project contains the article **“Best LLM for Coding in 2026: Choose by Task and Cost”**, its supporting visual assets, and the implementation handoff needed to turn the draft into a production content page. The article’s central editorial position is that coding models should be selected by **accepted-task success, reliability, latency, and total operating cost**, rather than by a single benchmark or token-price ranking.
+This project contains the article **“Best LLM for Coding in 2026: Choose by Task and Cost”**, its supporting visual assets, and the implementation handoff needed to turn the draft into a production content page. Its recommended canonical location is `https://apiflux.ai/blog/best-llm-for-coding`. The article’s central editorial position is that coding models should be selected by **accepted-task success, reliability, latency, and total operating cost**, rather than by a single benchmark or token-price ranking.
 
 ## Start here
 
@@ -15,6 +15,8 @@ This project contains the article **“Best LLM for Coding in 2026: Choose by Ta
 | Update copy, facts, or assets | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Editorial workflow, review standards, naming rules, and commit guidance. |
 | Prepare a release | [`docs/PUBLISHING_CHECKLIST.md`](docs/PUBLISHING_CHECKLIST.md) | A staged pre-publication checklist with clear completion criteria. |
 | Understand the overall content lifecycle | [`docs/CONTENT_WORKFLOW.md`](docs/CONTENT_WORKFLOW.md) | Responsibilities, review gates, fact-refresh expectations, and change categories. |
+| Review the latest source audit and URL decision | [`docs/RESEARCH_NOTES_2026-08-27.md`](docs/RESEARCH_NOTES_2026-08-27.md) | Source-verification record for the current article refresh, visual validation, and canonical-path rationale. |
+| Understand the content SEO strategy | [`docs/SEO_CONTENT_BRIEF.md`](docs/SEO_CONTENT_BRIEF.md) | Search intent, information gain, page architecture, internal-link strategy, authority requirements, and post-release measurement. |
 
 ## Repository layout
 
@@ -28,7 +30,9 @@ This project contains the article **“Best LLM for Coding in 2026: Choose by Ta
 │   └── model-routing-framework.mmd                # Editable source for the route diagram
 ├── docs/
 │   ├── CONTENT_WORKFLOW.md                        # Content lifecycle and governance
-│   └── PUBLISHING_CHECKLIST.md                    # Production-release checklist
+│   ├── PUBLISHING_CHECKLIST.md                    # Production-release checklist
+│   ├── RESEARCH_NOTES_2026-08-27.md               # Source audit and URL decision
+│   └── SEO_CONTENT_BRIEF.md                        # Search intent and page strategy
 ├── seo/
 │   └── coding-models-publication-handoff.md       # CMS and SEO implementation handoff
 └── .github/
@@ -39,10 +43,15 @@ This project contains the article **“Best LLM for Coding in 2026: Choose by Ta
 
 | Asset | Role | Source / maintenance path |
 |---|---|---|
-| `assets/images/best-llm-for-coding-2026-hero.jpg` | Article hero and social-share image. It is a 16:9 editorial image with deliberate open space for a CMS headline overlay. | Replace only when the article theme or brand treatment changes; update image metadata and social-preview checks at the same time. |
+| `assets/images/best-llm-for-coding-2026-hero.jpg` | Article hero image. It is a 16:9 editorial visual with deliberate open space for a CMS headline overlay. | Replace only when the article theme or brand treatment changes; update image metadata at the same time. |
+| `assets/images/best-llm-for-coding-2026-social.jpg` | Dedicated 1200 × 630 social preview for Open Graph and X / Twitter cards. | Keep it visually aligned with the hero; publish to a stable, crawlable URL before adding social metadata. |
 | `assets/images/model-routing-framework.png` | In-article visual explaining task-based routing and escalation. | Regenerate from [`assets/model-routing-framework.mmd`](assets/model-routing-framework.mmd) whenever the model-selection policy changes. |
 
 ![Decision flow for routing coding tasks by difficulty, repeatability, and verification outcome](assets/images/model-routing-framework.png)
+
+## Canonical URL decision
+
+The recommended final URL is `https://apiflux.ai/blog/best-llm-for-coding`. It matches the site’s existing blog architecture, describes the primary user query, uses readable hyphenation, and avoids a year that would force unnecessary URL changes during future factual refreshes. Do not serve a second canonical article at `/coding-models`; if that path already exists publicly, redirect it permanently only after validating the migration plan in the SEO handoff.
 
 ## Editorial and publication principles
 
