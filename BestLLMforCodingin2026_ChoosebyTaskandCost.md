@@ -49,6 +49,10 @@ A useful coding-model comparison must separate **published capability claims** f
 
 **Quick answer:** Match the model to task difficulty, required reliability, speed, and total cost. Use frontier models for uncertain, long-horizon work; use balanced models for daily production tasks; and use lower-cost tiers only where their reliability has been proven on the work you will automate.
 
+![A purple ApiFlux octopus uses its tentacles to route three unlabeled work paths from a fast cyan route through a balanced blue route to a frontier violet route.](assets/images/coding-task-tier-selection.png)
+
+*Match the first model tier to task risk, repeatability, and verification.*
+
 ### Highest-capability candidate: Claude Fable 5
 
 **Verdict:** Include Claude Fable 5 only when difficult, long-running work justifies evaluating the highest available capability tier before cost optimization.
@@ -111,6 +115,10 @@ Suppose Model A has a much higher output-token price than Model B but usually su
 
 **Quick answer:** Build a representative 15–30 task set, hold the environment constant, define executable success criteria, run tasks repeatedly, and route task categories to the model tier that proves best on them.
 
+![A focused purple ApiFlux octopus examines a conceptual loop of task, test, retry, and accepted-result symbols.](assets/images/coding-model-evaluation-loop.png)
+
+*Compare models with repeated, controlled tasks and predefined acceptance checks.*
+
 ### 1. Build a representative task set
 
 **Verdict:** Use real repository tasks—not toy functions—because agent failures usually occur in planning, navigation, tool use, and recovery.
@@ -165,6 +173,10 @@ Route ambiguous, repository-scale, or high-risk work to the frontier tier; keep 
 ## Compare coding models through one workflow
 
 **Quick answer:** A unified gateway lets teams run the same evaluation suite across several coding models without implementing a separate integration for every provider.
+
+![A purple ApiFlux octopus guides three abstract model routes into one shared evaluation path ending at an accepted-result check.](assets/images/unified-coding-model-comparison-workflow.png)
+
+*A common workflow makes cross-model task results easier to compare.*
 
 ApiFlux lets developers select a model ID and send requests through OpenAI-compatible, Anthropic, or Gemini protocols. First, verify currently available models, displayed prices, and limits on the [Models page](https://apiflux.ai/models). Then create an API key, complete a first request through the [Quickstart](https://apiflux.ai/docs/quickstart), connect tools such as Claude Code, Codex CLI, or OpenCode, and run the identical task suite across the shortlist.
 

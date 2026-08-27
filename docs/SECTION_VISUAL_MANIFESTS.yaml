@@ -1,0 +1,74 @@
+visuals:
+  - id: coding-task-tier-selection
+    file: assets/images/coding-task-tier-selection.png
+    dimensions: 2560x1440
+    mode: editorial-illustration
+    status: illustrative
+    article_placement: "Immediately after the quick answer under ## Which LLM is best for your coding task?"
+    reader_job: "Recognize that task shape determines the model tier to test first."
+    visual_thesis: "Route predictable, daily, and ambiguous work to appropriately escalating tiers."
+    alt: "A purple ApiFlux octopus uses its tentacles to route three unlabeled work paths from a fast cyan route through a balanced blue route to a frontier violet route."
+    caption: "Match the first model tier to task risk, repeatability, and verification."
+    mascot_decision:
+      decision: include
+      action_variant_authorized: true
+      authorization: "User explicitly authorized mascot action adjustment on 2026-08-27."
+      reference_assets:
+        - assets/mascot-references/mascot-front-welcome.jpg
+        - assets/mascot-references/mascot-running-wink.jpg
+        - assets/mascot-references/mascot-waving.jpg
+      intended_action: "Sort three abstract work paths with separate tentacles."
+      identity_anchors: ["purple-to-violet rounded head and tentacles", "lavender belly", "simple white eyes with black pupils", "friendly small smile", "flat-vector silhouette"]
+      background: "continuous near-black; no tile, frame, sticker, or standalone background"
+
+  - id: coding-model-evaluation-loop
+    file: assets/images/coding-model-evaluation-loop.png
+    dimensions: 2560x1440
+    mode: editorial-illustration
+    status: illustrative
+    article_placement: "Immediately after the quick answer under ## How to evaluate the best code LLM for your team"
+    reader_job: "Remember to hold variables constant, test repeatedly, and accept only checked work."
+    visual_thesis: "Good comparisons require repeatable evaluation loops rather than one-off impressions."
+    alt: "A focused purple ApiFlux octopus examines a conceptual loop of task, test, retry, and accepted-result symbols."
+    caption: "Compare models with repeated, controlled tasks and predefined acceptance checks."
+    mascot_decision:
+      decision: include
+      action_variant_authorized: true
+      authorization: "User explicitly authorized mascot action adjustment on 2026-08-27."
+      reference_assets:
+        - assets/mascot-references/mascot-front-welcome.jpg
+        - assets/images/coding-task-tier-selection.png
+      intended_action: "Inspect a repeated abstract evaluation loop before accepting an outcome."
+      identity_anchors: ["purple-to-violet rounded head and tentacles", "lavender belly", "simple white eyes with black pupils", "friendly small smile", "flat-vector silhouette"]
+      background: "continuous near-black; no tile, frame, sticker, or standalone background"
+
+  - id: unified-coding-model-comparison-workflow
+    file: assets/images/unified-coding-model-comparison-workflow.png
+    dimensions: 2560x1440
+    mode: editorial-illustration
+    status: illustrative
+    article_placement: "Immediately after the quick answer under ## Compare coding models through one workflow"
+    reader_job: "Understand the value of one common workflow for comparable testing."
+    visual_thesis: "Several model routes can be evaluated through one controlled workflow without implying identical behavior."
+    alt: "A purple ApiFlux octopus guides three abstract model routes into one shared evaluation path ending at an accepted-result check."
+    caption: "A common workflow makes cross-model task results easier to compare."
+    mascot_decision:
+      decision: include
+      action_variant_authorized: true
+      authorization: "User explicitly authorized mascot action adjustment on 2026-08-27."
+      reference_assets:
+        - assets/mascot-references/mascot-running-wink.jpg
+        - assets/images/coding-task-tier-selection.png
+        - assets/images/coding-model-evaluation-loop.png
+      intended_action: "Guide three abstract incoming routes toward one shared acceptance check."
+      identity_anchors: ["purple-to-violet rounded head and tentacles", "lavender belly", "simple white eyes with black pupils", "friendly small smile", "flat-vector silhouette"]
+      background: "continuous near-black; no tile, frame, sticker, or standalone background"
+
+qa:
+  no_generated_logo_or_text: true
+  no_unverified_data_or_benchmark_claim: true
+  original_mascot_identity_used_as_direct_reference: true
+  user_authorized_action_variants: true
+  all_visuals_have_descriptive_alt_and_caption: true
+  social_reuse_approved: false
+  final_editor_approval: pending
