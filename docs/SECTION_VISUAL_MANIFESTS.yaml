@@ -1,0 +1,72 @@
+visuals:
+  - id: coding-task-tier-snapshot
+    file: assets/images/coding-task-tier-snapshot.png
+    source: assets/sources/section-screenshots/task-tier-snapshot.html
+    dimensions: 1280x720
+    mode: diagram-information-snapshot
+    status: factual-summary
+    article_placement: "Immediately after the quick answer under ## Which LLM is best for your coding task?"
+    reader_job: "Choose a first model tier from task shape rather than a global leaderboard."
+    visual_thesis: "Predictable, daily, and high-risk work should start in different model tiers."
+    alt: "A three-card task-tier guide for predictable, daily production, and high-risk coding work, with a small purple ApiFlux mascot in the upper-right corner."
+    caption: "Choose a starting tier from task risk, repeatability, and verification; escalate when checks fail."
+    social_reuse: false
+    mascot_decision:
+      decision: include
+      selected_asset: assets/mascot-references/mascot-waving.jpg
+      action_variant_authorized: false
+      action_variant_status: original
+      reader_job_role: "Welcomes the reader into the task-routing framework without displacing the information."
+      placement_zone: "Fixed upper-right quiet zone; 102 px wide; outside title and card area."
+      background: "Exact continuous #0D0D15 canvas; no tile, frame, border, or sticker."
+
+  - id: coding-model-evaluation-snapshot
+    file: assets/images/coding-model-evaluation-snapshot.png
+    source: assets/sources/section-screenshots/evaluation-method-snapshot.html
+    dimensions: 1280x720
+    mode: diagram-information-snapshot
+    status: factual-summary
+    article_placement: "Immediately after the quick answer under ## How to evaluate the best code LLM for your team"
+    reader_job: "Build a fair, repeatable comparison before trusting its result."
+    visual_thesis: "Use a constant environment, repeated task set, and shared acceptance checks."
+    alt: "A three-step controlled evaluation guide showing the same environment, same task set, and same acceptance checks, with a small purple ApiFlux mascot in the upper-right corner."
+    caption: "Make comparisons fair: hold the environment constant, repeat representative tasks, and require the same checks."
+    social_reuse: false
+    mascot_decision:
+      decision: include
+      selected_asset: assets/mascot-references/mascot-front-welcome.jpg
+      action_variant_authorized: false
+      action_variant_status: original
+      reader_job_role: "Quietly observes the controlled comparison method without displacing the information."
+      placement_zone: "Fixed upper-right quiet zone; 98 px wide; outside title and card area."
+      background: "Exact continuous #070915 canvas; source outer margin cropped non-destructively; no tile, frame, border, or sticker."
+
+  - id: unified-coding-workflow-snapshot
+    file: assets/images/unified-coding-workflow-snapshot.png
+    source: assets/sources/section-screenshots/unified-workflow-snapshot.html
+    dimensions: 1280x720
+    mode: diagram-information-snapshot
+    status: factual-summary
+    article_placement: "Immediately after the quick answer under ## Compare coding models through one workflow"
+    reader_job: "Understand why a common test path improves comparability across candidates."
+    visual_thesis: "Shared context, a common run, and a decision record make relevant differences visible."
+    alt: "A three-stage comparison workflow showing shared task context, a common test path, and a decision record of accepted results, latency and retries, and total task cost, with a small purple ApiFlux mascot in the upper-right corner."
+    caption: "A common test path makes accepted results, latency, retries, and total task cost easier to compare."
+    social_reuse: false
+    mascot_decision:
+      decision: include
+      selected_asset: assets/mascot-references/mascot-waving.jpg
+      action_variant_authorized: false
+      action_variant_status: original
+      reader_job_role: "Introduces the common workflow in the quiet upper-right anchor without displacing the information."
+      placement_zone: "Fixed upper-right quiet zone; 102 px wide; outside title and card area."
+      background: "Exact continuous #0D0D15 canvas; no tile, frame, border, or sticker."
+
+qa:
+  old_large_mascot_illustrations_withdrawn: true
+  supplied_mascot_sources_used_without_generated_pose_changes: true
+  mascot_fixed_upper_right_and_visually_subordinate: true
+  mascot_independent_tile_or_card: false
+  factual_claims_are_derived_from_nearby_article_text: true
+  descriptive_alt_and_caption_in_article: true
+  final_editor_approval: pending

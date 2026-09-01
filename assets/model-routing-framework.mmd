@@ -1,0 +1,24 @@
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#EDE9FE','primaryTextColor':'#1F1B2D','primaryBorderColor':'#7C5CFC','lineColor':'#7C5CFC','secondaryColor':'#F5F3FF','tertiaryColor':'#FFFFFF','fontFamily':'Arial'}}}%%
+flowchart LR
+    task[Incoming coding task] --> classify{Task profile}
+    classify -->|Ambiguous, repo-scale, high risk| frontier[Frontier tier<br/>Claude Opus 5 or GPT-5.6 Sol]
+    classify -->|Daily feature, bug fix, review| balanced[Balanced tier<br/>Claude Sonnet 5 or GPT-5.6 Terra]
+    classify -->|Repeatable, high-volume work| fast[Fast / cost tier<br/>Gemini 3.7 Flash, GPT-5.6 Luna,<br/>or DeepSeek V4 Pro]
+    frontier --> verify[Run acceptance checks]
+    balanced --> verify
+    fast --> verify
+    verify -->|Pass| accept[Accepted result]
+    verify -->|Fail or retry budget exceeded| escalate[Escalate to frontier tier<br/>Evaluate Claude Fable 5 only when justified]
+    escalate --> frontier
+
+    classDef task fill:#1F1B2D,stroke:#1F1B2D,color:#FFFFFF;
+    classDef decision fill:#EDE9FE,stroke:#7C5CFC,color:#1F1B2D;
+    classDef tier fill:#FFFFFF,stroke:#A78BFA,color:#1F1B2D;
+    classDef verify fill:#F5F3FF,stroke:#7C5CFC,color:#1F1B2D;
+    classDef outcome fill:#DCFCE7,stroke:#22C55E,color:#14532D;
+
+    class task task;
+    class classify decision;
+    class frontier,balanced,fast,escalate tier;
+    class verify verify;
+    class accept outcome;
