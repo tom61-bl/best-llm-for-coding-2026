@@ -8,7 +8,7 @@ All notable repository changes are recorded here. This file tracks changes to th
 
 | Area | Change |
 |---|---|
-| Editorial source | Added the draft guide, `Best LLM for Coding in 2026: Choose by Task and Cost`. |
+| Editorial source | Added the draft guide, `Best LLMs for Coding in 2026: Choose by Task & Cost | ApiFlux`. |
 | Visual assets | Added a 16:9 article hero, a dedicated 1200 × 630 social-preview image, a task-routing diagram, and the editable Mermaid diagram source. |
 | SEO handoff | Added canonical, metadata, image, BlogPosting JSON-LD, hreflang, draft-indexing, migration, and publication-QA guidance. |
 | Repository documentation | Added a full README, contribution standards, content workflow, release checklist, PR template, changelog, repository ignore rules, source-audit record, and SEO content brief. |

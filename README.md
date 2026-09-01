@@ -6,7 +6,7 @@
 
 ## What this repository contains
 
-This project contains the English article **“Best LLM for Coding in 2026: Choose by Task and Cost”**, its prepared visuals, and the implementation notes needed to hand the page to a CMS, SEO, or web team. The article helps engineering teams choose coding models by the work they need done—task difficulty, reliability, latency, retries, review effort, and total operating cost—instead of treating a single benchmark or token price as the answer.
+This project contains the English article **“Best LLMs for Coding in 2026: Choose by Task & Cost | ApiFlux”**, its prepared visuals, and the implementation notes needed to hand the page to a CMS, SEO, or web team. The article helps engineering teams choose coding models by the work they need done—task difficulty, reliability, latency, retries, review effort, and total operating cost—instead of treating a single benchmark or token price as the answer.
 
 The recommended production page is:
 

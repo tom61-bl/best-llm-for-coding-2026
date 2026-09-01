@@ -60,7 +60,7 @@ The public blog uses the `/blog/<descriptive-slug>` pattern. Its existing articl
 
 ## Recommended final URL decision
 
-Use the canonical URL `https://apiflux.ai/blog/best-llm-for-coding` for this new article, subject to confirming the page has not already gone live at `/coding-models`. Use `Best LLM for Coding in 2026: Choose by Task and Cost` as the on-page H1 and current editorial title. This separates the stable content identity from the annually refreshed title. It also follows the website’s existing blog architecture rather than introducing an isolated URL convention.
+Use the canonical URL `https://apiflux.ai/blog/best-llm-for-coding` for this new article, subject to confirming the page has not already gone live at `/coding-models`. Use `Best LLMs for Coding in 2026: Choose by Task & Cost | ApiFlux` as the on-page H1 and current editorial title. This separates the stable content identity from the annually refreshed title. It also follows the website’s existing blog architecture rather than introducing an isolated URL convention.
 
 ## Gemini pricing verification
 

@@ -19,7 +19,7 @@ The page is for developers and engineering leaders evaluating LLMs for coding. I
 
 | Field | Production value |
 |---|---|
-| Browser title | `Best LLM for Coding in 2026: Choose by Task and Cost` |
+| Browser title | `Best LLMs for Coding in 2026: Choose by Task & Cost | ApiFlux` |
 | Meta description | `Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost.` |
 | Canonical URL | `https://apiflux.ai/blog/best-llm-for-coding` |
 | Primary query | `best LLM for coding` |
@@ -52,7 +52,7 @@ Render the following values from the CMS after the final production image URL ha
 | Field | Production value |
 |---|---|
 | `og:type` | `article` |
-| `og:title` | `Best LLM for Coding in 2026: Choose by Task and Cost` |
+| `og:title` | `Best LLMs for Coding in 2026: Choose by Task & Cost | ApiFlux` |
 | `og:description` | `Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost.` |
 | `og:url` | `https://apiflux.ai/blog/best-llm-for-coding` |
 | `og:image` | Final CDN URL for `best-llm-for-coding-2026-social.jpg` |
@@ -73,7 +73,7 @@ Use a `BlogPosting` JSON-LD node because the article belongs in the ApiFlux blog
     "@type": "WebPage",
     "@id": "https://apiflux.ai/blog/best-llm-for-coding"
   },
-  "headline": "Best LLM for Coding in 2026: Choose by Task and Cost",
+  "headline": "Best LLMs for Coding in 2026: Choose by Task & Cost | ApiFlux",
   "description": "Find the best LLM for coding in 2026 by comparing Claude, GPT, Gemini, and DeepSeek for task success, agent reliability, latency, and cost.",
   "image": [
     "FINAL_SOCIAL_IMAGE_URL"
